@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_fr0",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapseblob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "synapse.txt",
+				"folderPath": "synapse",
+				"container": "synapse"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
