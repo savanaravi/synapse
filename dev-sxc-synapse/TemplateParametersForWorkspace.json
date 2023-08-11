@@ -11,6 +11,9 @@
 		"dev-sxc-synapse-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:dev-sxc-synapse.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
+		"linkedService1_accountKey": {
+			"value": ""
+		},
 		"singlesql_synapse_connectionString": {
 			"value": ""
 		},
@@ -22,6 +25,9 @@
 		},
 		"dev-sxc-synapse-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://labstorage23.dfs.core.windows.net"
+		},
+		"linkedService1_properties_typeProperties_url": {
+			"value": "https://labstorage23.dfs.core.windows.net/"
 		}
 	}
 }
