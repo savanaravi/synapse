@@ -24,7 +24,13 @@
 						"type": "SqlPoolSink",
 						"allowCopyCommand": true
 					},
-					"enableStaging": false
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "linkedService1",
+							"type": "LinkedServiceReference"
+						}
+					}
 				},
 				"inputs": [
 					{
