@@ -29,7 +29,8 @@
 						"linkedServiceName": {
 							"referenceName": "linkedService1",
 							"type": "LinkedServiceReference"
-						}
+						},
+						"path": "synapse/synapse"
 					}
 				},
 				"inputs": [
